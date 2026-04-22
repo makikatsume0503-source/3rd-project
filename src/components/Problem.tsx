@@ -35,18 +35,18 @@ export const Problem: React.FC = () => {
                             <CheckCircle size={24} />
                             理想の未来
                         </h3>
-                        <ul className=”space-y-4”>
-                            <li className=”flex items-start gap-3”>
-                                <span className=”w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5”></span>
-                                <p className=”text-slate-600”>24時間365日、ホームページが自動で新規顧客を獲得し続ける</p>
+                        <ul className="space-y-4">
+                            <li className="flex items-start gap-3">
+                                <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5"></span>
+                                <p className="text-slate-600">24時間365日、ホームページが自動で新規顧客を獲得し続ける</p>
                             </li>
-                            <li className=”flex items-start gap-3”>
-                                <span className=”w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5”></span>
-                                <p className=”text-slate-600”>価値観の合う「質の高いクライアント」だけを集められる</p>
+                            <li className="flex items-start gap-3">
+                                <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5"></span>
+                                <p className="text-slate-600">価値観の合う「質の高いクライアント」だけを集められる</p>
                             </li>
-                            <li className=”flex items-start gap-3”>
-                                <span className=”w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5”></span>
-                                <p className=”text-slate-600”>信頼度・専門性が可視化され、”あなただから”と選ばれる</p>
+                            <li className="flex items-start gap-3">
+                                <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5"></span>
+                                <p className="text-slate-600">信頼度・専門性が可視化され、"あなただから"と選ばれる</p>
                             </li>
                         </ul>
                     </motion.div>
