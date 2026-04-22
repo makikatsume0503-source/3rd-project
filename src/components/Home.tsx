@@ -1,6 +1,5 @@
 import React from 'react';
 import { Hero } from './Hero';
-import { DigitalTwin } from './DigitalTwin';
 import { LPCreationFlow } from './LPCreationFlow';
 import { Problem } from './Problem';
 import { Profile } from './Profile';
@@ -16,9 +15,7 @@ export const Home: React.FC<ActionBoxProps> = (props) => {
         <>
             <Hero {...props} />
             <Problem />
-            <DigitalTwin />
             <LPCreationFlow />
-            {/* <Demonstrations /> */}
             <SpecialGift />
             <Profile />
             <Conclusion />
