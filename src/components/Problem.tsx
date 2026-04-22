@@ -54,24 +54,24 @@ export const Problem: React.FC = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6, delay: 0.2 }}
-                        className="bg-white rounded-xl p-8 shadow-md border border-green-100 relative z-10"
+                        className="bg-white rounded-xl p-8 shadow-md border border-[#d4af37]/20 relative z-10"
                     >
-                        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-200 to-green-100 rounded-t-xl" />
-                        <h3 className="text-xl font-bold text-green-600 mb-6 flex items-center gap-2">
+                        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#d4af37]/0 via-[#d4af37] to-[#d4af37]/0 rounded-t-xl" />
+                        <h3 className="text-xl font-bold text-[#d4af37] mb-6 flex items-center gap-2">
                             <CheckCircle size={24} />
                             手に入れられる未来
                         </h3>
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">
-                                <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5 flex-shrink-0"></span>
+                                <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37] mt-2.5 flex-shrink-0"></span>
                                 <p className="text-slate-600">24時間365日、ホームページが自動で新規顧客を獲得し続ける</p>
                             </li>
                             <li className="flex items-start gap-3">
-                                <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5 flex-shrink-0"></span>
+                                <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37] mt-2.5 flex-shrink-0"></span>
                                 <p className="text-slate-600">価値観の合う「質の高いクライアント」だけを集められる</p>
                             </li>
                             <li className="flex items-start gap-3">
-                                <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5 flex-shrink-0"></span>
+                                <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37] mt-2.5 flex-shrink-0"></span>
                                 <p className="text-slate-600">信頼度・専門性が可視化され、"あなただから"と選ばれる</p>
                             </li>
                         </ul>
