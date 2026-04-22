@@ -4,35 +4,49 @@ export const Profile: React.FC = () => {
     return (
         <section className="py-20 bg-slate-50">
             <div className="container mx-auto px-4 max-w-4xl">
-                <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl flex flex-col md:flex-row gap-10 items-center">
+                <div className="text-center mb-12">
+                    <p className="text-[#d4af37] text-sm font-serif tracking-widest mb-2">INSTRUCTOR</p>
+                    <h2 className="text-2xl md:text-3xl font-bold text-slate-800">講師プロフィール</h2>
+                    <div className="w-16 h-[2px] bg-gradient-to-r from-transparent via-[#d4af37] to-transparent mx-auto mt-4"></div>
+                </div>
+
+                <div className="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-100 flex flex-col md:flex-row">
+                    {/* Top gold accent */}
+                    <div className="w-full h-1 md:hidden bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
+
+                    {/* Photo */}
                     <div className="w-full md:w-1/3 flex-shrink-0">
-                        <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg border-4 border-slate-100 relative">
+                        <div className="aspect-[3/4] overflow-hidden relative md:h-full">
                             <img
                                 src="/assets/maki-profile.jpg"
                                 alt="勝目 麻希"
                                 className="w-full h-full object-cover transform scale-125 object-[center_30%]"
-                                style={{ aspectRatio: '3/4' }}
                             />
+                            {/* Gold left border on desktop */}
+                            <div className="hidden md:block absolute top-0 right-0 w-[3px] h-full bg-gradient-to-b from-[#d4af37]/0 via-[#d4af37]/60 to-[#d4af37]/0" />
                         </div>
                     </div>
 
-                    <div className="w-full md:w-2/3">
-                        <span className="text-secondary font-bold tracking-wider text-sm">講師</span>
-                        <h2 className="text-2xl md:text-3xl font-bold mb-6 text-slate-800 mt-2">
-                            勝目 麻希 <span className="text-base text-slate-500 font-normal ml-2">Maki Katsume</span>
+                    {/* Content */}
+                    <div className="w-full md:w-2/3 p-8 md:p-12 flex flex-col justify-center">
+                        <span className="text-[#d4af37] font-bold tracking-widest text-xs font-serif mb-2">講師</span>
+                        <h2 className="text-2xl md:text-3xl font-bold mb-2 text-slate-800">
+                            勝目 麻希
                         </h2>
+                        <p className="text-slate-400 text-sm font-serif mb-6">Maki Katsume</p>
 
                         <div className="space-y-4 text-slate-600 leading-relaxed text-sm md:text-base">
                             <p>
-                                2018年に未経験からフリーランスライターとしての活動を開始。
-                                副業・独立として着実に実績を積み上げ、会社員時代の収入を超えた経験を持つ。
+                                2018年に未経験からフリーランスライターとして独立。
+                                副業からスタートし、着実に実績を積み上げ会社員時代の収入を超える。
                             </p>
                             <p>
-                                その経験から、収入の柱を増やしたい・ビジネスをスケールしたいと考えるすべての方をサポートしたいと考え、ライター育成講師としての活動もスタート。
+                                現在は企業のオウンドメディア執筆・SNS運用代行・メルマガ代行・広報支援など多岐にわたり活動。
+                                AIを活用した高速・高品質なコンテンツ制作手法の普及に取り組んでいる。
                             </p>
                             <p>
-                                現在は、企業のオウンドメディア記事執筆、SNS運用代行、メルマガ代行、広報活動など、多岐にわたる分野で活動中。
-                                AIを駆使した効率的かつ高品質なコンテンツ制作手法の普及に努めている。
+                                「スキルさえあれば、場所も時間も選ばず稼げる」をテーマに、
+                                ビジネスをスケールしたいすべての方に向けて講座・コンサルを提供中。
                             </p>
                         </div>
                     </div>

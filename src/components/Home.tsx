@@ -16,8 +16,8 @@ export const Home: React.FC<ActionBoxProps> = (props) => {
             <Hero {...props} />
             <Problem />
             <LPCreationFlow />
-            <SpecialGift />
             <Profile />
+            <SpecialGift />
             <Conclusion />
             <Offer {...props} />
         </>
