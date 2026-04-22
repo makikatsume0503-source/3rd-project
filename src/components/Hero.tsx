@@ -12,10 +12,16 @@ export const Hero: React.FC<ActionBoxProps> = ({
 
             {/* Photo — top on mobile, right on desktop */}
             <div className="order-first lg:order-last w-full lg:absolute lg:inset-y-0 lg:right-0 lg:w-[48%] h-56 sm:h-72 lg:h-full relative overflow-hidden flex-shrink-0">
+                {/* SP: hero-sp.png / PC: hero-pc.png */}
                 <img
-                    src="/assets/hero_lounge_style.png"
+                    src="/assets/hero-sp.png"
                     alt="Professional workspace"
-                    className="w-full h-full object-cover object-center"
+                    className="w-full h-full object-cover object-center lg:hidden"
+                />
+                <img
+                    src="/assets/hero-pc.png"
+                    alt="Professional workspace"
+                    className="w-full h-full object-cover object-center hidden lg:block"
                 />
                 {/* Mobile: fade bottom into navy */}
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#0c1829]/20 to-[#0c1829] lg:hidden" />
