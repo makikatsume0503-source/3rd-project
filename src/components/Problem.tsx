@@ -79,9 +79,9 @@ export const Problem: React.FC = () => {
                 </div>
 
                 <div className="mt-20 max-w-4xl mx-auto text-center">
-                    <div className="bg-[#0c1829] p-10 rounded-xl border border-[#d4af37]/30 relative overflow-hidden">
+                    <div className="bg-white p-10 rounded-xl border border-[#d4af37]/40 shadow-md relative overflow-hidden">
                         <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[#d4af37] to-transparent"></div>
-                        <h3 className="text-2xl md:text-4xl font-serif font-bold text-white leading-tight">
+                        <h3 className="text-2xl md:text-4xl font-serif font-bold text-slate-800 leading-tight">
                             AIを使えば、<span className="text-[#d4af37]">最短1日で</span><br />
                             集客できるホームページが完成します。
                         </h3>
