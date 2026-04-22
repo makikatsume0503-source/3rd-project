@@ -19,7 +19,7 @@ export const Conclusion: React.FC = () => {
 
                     <h2 className="text-2xl md:text-4xl font-bold font-serif text-slate-800 leading-tight mb-8">
                         ホームページは、<br />
-                        <span className="text-[#d4af37]">あなたの代わりに24時間働いてくれる営業マン</span>です。
+                        <span className="text-[#d4af37]">あなたの代わりに<br />24時間働いてくれる営業マン</span>です。
                     </h2>
 
                     <div className="bg-[#0c1829] rounded-xl p-10 text-left relative overflow-hidden">

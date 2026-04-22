@@ -16,7 +16,7 @@ export const Profile: React.FC = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
-                    className="bg-[#0c1829] rounded-xl overflow-hidden shadow-2xl border border-[#d4af37]/20 relative"
+                    className="bg-white rounded-xl overflow-hidden shadow-lg border border-slate-200 relative"
                 >
                     {/* Top gold line */}
                     <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[#d4af37] to-transparent" />
@@ -33,19 +33,19 @@ export const Profile: React.FC = () => {
                                 {/* Gold divider on right (desktop) */}
                                 <div className="hidden md:block absolute top-0 right-0 w-[2px] h-full bg-gradient-to-b from-[#d4af37]/0 via-[#d4af37]/50 to-[#d4af37]/0" />
                                 {/* Fade at bottom (mobile) */}
-                                <div className="block md:hidden absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-[#0c1829] to-transparent" />
+                                <div className="block md:hidden absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent" />
                             </div>
                         </div>
 
                         {/* Content */}
                         <div className="flex-1 p-8 md:p-12 flex flex-col justify-center">
                             <span className="text-[#d4af37] font-serif tracking-widest text-xs mb-2">講師</span>
-                            <h3 className="text-3xl md:text-4xl font-bold text-white mb-1 font-serif">
+                            <h3 className="text-3xl md:text-4xl font-bold text-slate-800 mb-1 font-serif">
                                 勝目 麻希
                             </h3>
                             <p className="text-slate-400 text-sm font-serif tracking-widest mb-8">Maki Katsume</p>
 
-                            <div className="space-y-4 text-slate-300 leading-relaxed text-sm md:text-base font-serif">
+                            <div className="space-y-4 text-slate-600 leading-relaxed text-sm md:text-base font-serif">
                                 <p>
                                     2018年に未経験からフリーランスライターとして独立。
                                     副業からスタートし、着実に実績を積み上げ会社員時代の収入を超える。
