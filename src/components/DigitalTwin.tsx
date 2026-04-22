@@ -9,12 +9,12 @@ export const DigitalTwin: React.FC = () => {
                 <div className="text-center mb-16">
 
                     <h2 className="text-2xl md:text-4xl font-bold mt-2 text-slate-800">
-                        ライターの視点をAIに。<br />
-                        あなたの言葉を引き出す<br /><span className="text-secondary">「プロライター監修のヒアリングシート」</span>
+                        プロの取材力をAIに実装。<br />
+                        あなたの強みを言語化する<br /><span className="text-secondary">「プロライター監修のヒアリングシート」</span>
                     </h2>
                     <p className="mt-6 text-slate-600 max-w-2xl mx-auto leading-relaxed">
-                        AIに「丸投げ」しても、<br className="block md:hidden" />あなたの想いは伝わりません。<br />
-                        大切なのは、AIに何をインプットするか。
+                        AIに「丸投げ」しても、<br className="block md:hidden" />差別化された強みは出てきません。<br />
+                        成果を出すのは、AIへの「質の高いインプット」です。
                     </p>
                 </div>
 
@@ -27,18 +27,18 @@ export const DigitalTwin: React.FC = () => {
                     >
                         <FeatureItem
                             icon={<Brain className="w-6 h-6 text-secondary" />}
-                            title="プロの「核心を突く質問」を学習"
-                            description="プロのライターが取材で使う質問リストをAIにインプット。表面的な情報だけでなく、あなたの想いや背景にあるストーリーを引き出します。"
+                            title="プロの「本質を突く質問」を実装"
+                            description="プロのライターが取材で使う質問リストをAIにインプット。表面的な情報だけでなく、あなたのビジネスの核心にある強みと実績を引き出します。"
                         />
                         <FeatureItem
                             icon={<Sparkles className="w-6 h-6 text-secondary" />}
-                            title="驚くほど「あなたらしい」言葉"
-                            description="質の高いインプットがあるからこそ、AIはあなたの分身へと進化します。ありきたりなAI文章ではなく、熱量の乗った言葉が返ってきます。"
+                            title="量産ではなく「差別化された」コピー"
+                            description="質の高いインプットがあるからこそ、AIは強力なライティングツールになります。ありきたりな量産文章ではなく、成約率の高い言葉が生成されます。"
                         />
                         <FeatureItem
                             icon={<PenTool className="w-6 h-6 text-secondary" />}
-                            title="「何を書けばいい？」からの解放"
-                            description="ヒアリングに答えるだけで、AIへの指示出しが完了。まるで優秀なライターにインタビューされているかのように、スムーズに原稿が完成します。"
+                            title="ゼロから始める手間を完全排除"
+                            description="ヒアリングに答えるだけで、AIへの指示出しが完了。まるで優秀なコピーライターがインタビューするように、スピーディーに原稿が完成します。"
                         />
                     </motion.div>
                 </div>

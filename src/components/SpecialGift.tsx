@@ -21,13 +21,13 @@ export const SpecialGift: React.FC = () => {
                         プレゼント
                     </h2>
                     <p className="text-slate-300 max-w-2xl mx-auto text-lg leading-relaxed">
-                        AIは優秀ですが、指示が抽象的だと<br />
-                        平凡な答えしか返ってきません。<br /><br />
+                        AIへの指示が曖昧なままでは<br />
+                        平凡で没個性な出力しか得られません。<br /><br />
                         このテンプレを使えば、<br />
-                        あなたの心の奥にある<br />
-                        「本当に伝えたいこと」をAIに正しく伝え、<br />
-                        想いのこもったホームページを<br className="block md:hidden" />
-                        作成できます。
+                        あなたのビジネスの強みと実績を<br />
+                        AIに正確にインプットでき、<br />
+                        成約率の高いホームページを<br className="block md:hidden" />
+                        最短で完成させられます。
                     </p>
                 </div>
 
@@ -36,27 +36,27 @@ export const SpecialGift: React.FC = () => {
                     <GiftCard
                         delay={0}
                         icon={<MessageCircle className="w-8 h-8 text-secondary" />}
-                        label="プレゼント１"
-                        title={<>【プロライター監修】<br />ヒアリングシート</>}
-                        description="プロのライターが実際に行っている「強み引き出し質問シート」をAI用に最適化。これに沿って答えるだけで、AIがあなたの分身へと進化します。"
+                        label="特典１"
+                        title={<>【プロライター監修】<br />強み引き出しヒアリングシート</>}
+                        description="プロのライターが実際に行っている「強み引き出し質問シート」をAI用に最適化。これに沿って答えるだけで、AIが高精度なライティングツールへと変わります。"
                     />
 
                     {/* Gift 2 */}
                     <GiftCard
                         delay={0.2}
                         icon={<FileText className="w-8 h-8 text-secondary" />}
-                        label="プレゼント２"
-                        title="AIプロンプト集"
-                        description="30分でホームページの骨組みを作るための具体的な指示書（プロンプト）。迷わずコピペして使える実践的なコレクションです。"
+                        label="特典２"
+                        title="即使えるAIプロンプト集"
+                        description="30分でホームページの骨組みを完成させるための具体的な指示書（プロンプト）。コピペするだけで即実践投入できる実践的なコレクションです。"
                     />
 
                     {/* Gift 3 */}
                     <GiftCard
                         delay={0.4}
                         icon={<MessageCircle className="w-8 h-8 text-secondary" />}
-                        label="プレゼント３"
+                        label="特典３"
                         title={<>1ヶ月間<br />チャットサポート</>}
-                        description="講座受講後も安心の1ヶ月間フォローアップ。実践の中で生まれた疑問や不明点を、チャットで気軽に質問できます。"
+                        description="受講後も安心の1ヶ月間フォローアップ。実践する中で生まれた疑問・詰まった箇所を、チャットでダイレクトに質問できます。"
                     />
                 </div>
             </div>

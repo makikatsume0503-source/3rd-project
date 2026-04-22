@@ -12,10 +12,10 @@ export const Problem: React.FC = () => {
                 <div className="text-center mb-16">
 
                     <h2 className="text-lg md:text-3xl font-bold mt-2 text-slate-800 leading-relaxed md:leading-normal">
-                        ホームページを早く作った方が良い！<br />
+                        ホームページを早く作るべきだとわかっている。<br />
                         <span className="block h-4 md:hidden"></span>
-                        わかってはいるけれど<br className="block md:hidden" />
-                        後回しにしていませんか……？
+                        それでも<br className="block md:hidden" />
+                        後回しにしてしまっていませんか？
                     </h2>
                 </div>
 
@@ -35,18 +35,18 @@ export const Problem: React.FC = () => {
                             <CheckCircle size={24} />
                             理想の未来
                         </h3>
-                        <ul className="space-y-4">
-                            <li className="flex items-start gap-3">
-                                <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5"></span>
-                                <p className="text-slate-600">24時間365日、ホームページがあなたの分身として営業してくれる</p>
+                        <ul className=”space-y-4”>
+                            <li className=”flex items-start gap-3”>
+                                <span className=”w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5”></span>
+                                <p className=”text-slate-600”>24時間365日、ホームページが自動で新規顧客を獲得し続ける</p>
                             </li>
-                            <li className="flex items-start gap-3">
-                                <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5"></span>
-                                <p className="text-slate-600">想いに共感した「質の高いクライアント」が集まる</p>
+                            <li className=”flex items-start gap-3”>
+                                <span className=”w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5”></span>
+                                <p className=”text-slate-600”>価値観の合う「質の高いクライアント」だけを集められる</p>
                             </li>
-                            <li className="flex items-start gap-3">
-                                <span className="w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5"></span>
-                                <p className="text-slate-600">信頼度がアップして“あなただから”と選ばれる存在へ</p>
+                            <li className=”flex items-start gap-3”>
+                                <span className=”w-1.5 h-1.5 rounded-full bg-green-500 mt-2.5”></span>
+                                <p className=”text-slate-600”>信頼度・専門性が可視化され、”あなただから”と選ばれる</p>
                             </li>
                         </ul>
                     </motion.div>
@@ -74,15 +74,15 @@ export const Problem: React.FC = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3">
                                 <span className="w-1.5 h-1.5 rounded-full bg-slate-400 mt-2.5"></span>
-                                <p className="text-slate-600">「何を書けばいいかわからない」と手が止まる</p>
+                                <p className="text-slate-600">「何を書けばいいのか」で手が止まり、一向に進まない</p>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="w-1.5 h-1.5 rounded-full bg-slate-400 mt-2.5"></span>
-                                <p className="text-slate-600">日々の業務に追われ、自分の発信は後回し</p>
+                                <p className="text-slate-600">日々の業務に追われ、自分の集客・発信は常に後回し</p>
                             </li>
                             <li className="flex items-start gap-3">
                                 <span className="w-1.5 h-1.5 rounded-full bg-slate-400 mt-2.5"></span>
-                                <p className="text-slate-600">とりあえず自分で作ってみたけれど「これじゃない感」が拭えない</p>
+                                <p className="text-slate-600">自分で作ったが「クオリティが低い」と感じ、公開できずにいる</p>
                             </li>
                         </ul>
                     </motion.div>

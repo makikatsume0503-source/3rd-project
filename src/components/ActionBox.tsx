@@ -20,7 +20,7 @@ export const ActionBox: React.FC<ActionBoxProps> = ({
                     プレゼント付き
                 </span>
                 <h3 className="text-xl font-bold text-slate-800 mb-2">
-                    AIを活用して<br />ホームページを1日で作成する<br />スキルを身に付ける
+                    AIで最短1日、<br />集客できるホームページを<br />自分の手で構築する
                 </h3>
 
                 <p className="text-2xl font-bold text-primary mt-4">
