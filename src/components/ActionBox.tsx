@@ -68,7 +68,7 @@ export const ActionBox: React.FC<ActionBoxProps> = ({
 
             <div className="mt-4 text-center">
                 <p className="text-xs text-[#d4af37]/70 mb-1 font-serif">
-                    ※ホームページだけでなくアプリ作成も可能です。
+                    ※ホームページだけでなくアプリ作成もレクチャーできます。
                 </p>
                 <p className="text-xs text-slate-500 leading-relaxed font-serif">
                     ※ボタンをクリックすると決済画面に移動します。<br />
