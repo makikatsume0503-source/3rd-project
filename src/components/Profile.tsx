@@ -48,7 +48,7 @@ export const Profile: React.FC = () => {
                             <div className="space-y-4 text-slate-600 leading-relaxed text-sm md:text-base font-serif">
                                 <p>
                                     2018年に未経験からフリーランスライターとして独立。
-                                    副業からスタートし、着実に実績を積み上げ会社員時代の収入を超える。
+                                    副業からスタートし、着実に実績を積み上げてきた。
                                 </p>
                                 <p>
                                     企業のオウンドメディア執筆・SNS運用代行・メルマガ代行・広報支援など多岐にわたり活動。
